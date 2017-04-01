@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+main()
+{
+	float a=1, eps,
+	      n, m=519; //o numero deve ser maior que 519
+	
+	while(1+a>1)
+	{
+		eps=a;
+		a=a/2;
+	}
+	
+	n=m*m;
+	
+	while(n<269696)
+	{
+		m+=0.00001;
+		n=m*m;
+	}
+	
+	printf("%.21f ² = %.21f", m, n);
+	
+	
+}
