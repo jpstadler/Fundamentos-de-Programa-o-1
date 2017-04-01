@@ -55,11 +55,10 @@ main()
         }
 
 
-        /*for(i=2; i<=12; i++){
+        /*for(i=2; i<=12; i++)
+        {
             printf("\t\t %d de %d\nDOM\tSEG\tTER\tQUA\tQUI\tSEX\tSAB\n", i,ano);
         }*/
-
-        /*}*/
     }
     else
         printf("Eh Bissexto!!\n");
