@@ -41,8 +41,7 @@ main()
                 {
                     semAnt=0;
                     semAnt=j;
-                    kp=0;
-                    terMes=31;                //termino de mes ocorre apenas uma vez, por isso vem antes
+                    kp=0;               //termino de mes ocorre apenas uma vez, por isso vem antes
                     break;
                 }
                 else
@@ -178,8 +177,7 @@ main()
                 {
                     semAnt=0;
                     semAnt=j;
-                    kp=0;
-                    terMes=31;                //termino de mes ocorre apenas uma vez, por isso vem antes
+                    kp=0;                //termino de mes ocorre apenas uma vez, por isso vem antes
                     break;
                 }
                 else
